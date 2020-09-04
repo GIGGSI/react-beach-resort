@@ -363,7 +363,7 @@ export default [
       id: "7"
     },
     fields: {
-      name: "double standard",
+        name: "double standard",
       slug: "double-standard",
       type: "double",
       price: 300,

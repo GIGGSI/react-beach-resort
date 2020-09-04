@@ -13,10 +13,12 @@ import Beach from "./pages/Beach";
 import Restaurant from "./pages/Restaurant";
 import AboutUsInfo from "./pages/AboutUsInfo";
 import Footer from "./components/Footer";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
     return (
         <>
+            <ScrollToTop/>
             <Navbar/>
             <Switch>
                 <Route exact path='/' component={Home}/>
