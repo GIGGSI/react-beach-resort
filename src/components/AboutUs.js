@@ -13,7 +13,8 @@ export default function AboutUs() {
             <div className="about-center section-center">
                 <article className="about-img">
 
-                    <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" className="about-photo" alt="awesome beach"/>
+                    <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                     className="about-photo" alt="awesome beach"/>
                 </article>
 
                 <article className="about-info">
