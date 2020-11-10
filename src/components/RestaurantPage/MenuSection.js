@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import Menu from './Menu';
 import Categories from './Categories';
 import items from './data';
 import Title from '../Title';
-
+import Flip from 'react-reveal/Flip';
+import Fade from "react-reveal";
 const allCategories = ['all', ...new Set(items.map((item) => item.category))];
 
 export default function MenuSection() {
@@ -21,10 +22,14 @@ export default function MenuSection() {
 
     return <main>
         <section className="menu section-menu">
-            <Title title="our menu" />
-            <Categories categories={categories}
-                filterItems={filterItems} />
-            <Menu items={menuItems} />
+            <Flip left duration={2000} distance="40px">
+                <Title title="our menu"/>
+            </Flip>
+            <Fade buttom duration={2000} distance="40px">
+                <Categories categories={categories}
+                            filterItems={filterItems}/>
+                <Menu items={menuItems}/>
+            </Fade>
         </section>
     </main>
 }

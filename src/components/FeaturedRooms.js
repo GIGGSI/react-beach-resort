@@ -3,6 +3,7 @@ import {RoomContext} from "../context";
 import Loading from "./Loading";
 import Room from "./Room";
 import Title from "./Title";
+import Fade from "react-reveal";
 
 class FeaturedRooms extends Component {
 
@@ -14,15 +15,15 @@ class FeaturedRooms extends Component {
             return <Room key={room.id} room={room}/>
         })
         return (
-            <section className="featured-rooms">
+            <Fade bottom duration={2000} distance="40px">
+                <section className="featured-rooms">
 
-                <Title title="Featured Rooms"/>
-                <div className="featured-rooms-center">
-                    {loading ? <Loading/> : rooms}
-                </div>
-
-                
-            </section>
+                    <Title title="Featured Rooms"/>
+                    <div className="featured-rooms-center">
+                        {loading ? <Loading/> : rooms}
+                    </div>
+                </section>
+            </Fade>
         );
     }
 }

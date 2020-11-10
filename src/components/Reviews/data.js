@@ -2,38 +2,38 @@ const people = [
     {
         id: 1,
         image:
-            'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg',
+            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
         name: 'maria ferguson',
         title: 'office manager',
         quote:
-            'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+            'The staff was very kind and helpful, the room was very clean and the view from the balcony was fantastically beautiful!',
     },
     {
         id: 2,
         image:
-            'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
-        name: 'john doe',
-        title: 'regular guy',
+            'https://images.unsplash.com/photo-1493863641943-9b68992a8d07?ixlib=rb-1.2.1&auto=format&fit=crop&w=739&q=80',
+        name: 'Joshua Newton',
+        title: 'photographer',
         quote:
-            'Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.',
+            'The location is in a great center. Clean, breakfast is very rich and good, the staff is smiling and polite.',
     },
     {
         id: 3,
         image:
-            'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959121/person-1_aufeoq.jpg',
-        name: 'peter smith',
+            'https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80',
+        name: 'Jakob Owens',
         title: 'product designer',
         quote:
-            'Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.',
+            'Everything was great! Perfect service, excellent cleanliness, very comfortable beds, very good location with parking.',
     },
     {
         id: 4,
         image:
-            'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
-        name: 'susan andersen',
-        title: 'the boss',
+            'https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
+        name: 'Atikh Bana',
+        title: 'traveler',
         quote:
-            'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ',
+            'Very friendly and helpful staff at the reception and at the breakfast reception. Breakfast exceptional. The bedroom is completely clean. The bed is comfortable. I loved staying there. ',
     },
 ];
 

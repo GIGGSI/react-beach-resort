@@ -5,7 +5,8 @@ export default [
     {
         icon: <MdLocalParking/>,
         title: "Parking",
-        info: "we offers 24-hour indoor parking for its guests." +
+        info:
+            "We offers 24-hour indoor parking for its guests." +
             " The hotel is directly accessible from the indoor car "
 
     }, {
@@ -23,7 +24,7 @@ export default [
             " guestroom corridors."
     }, {
         icon: <MdRoomService/>,
-        title: "Room servise",
+        title: "Room service",
         info: "Beach resort provides 24-hour room service. " +
             "Please click here for Room Service menu."
     }
