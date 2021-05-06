@@ -770,7 +770,16 @@ footer a:hover {
   background-position: center center;
   position: relative;
 }
-.qt-background p {
+.qt-background-2 {
+  background: url("http://playa.ancorathemes.com/wp-content/uploads/2017/06/bg-23.jpg")
+    no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+}
+.qt-background p, .qt-background-2 p {
   font-size: 35px;
   font-weight: bold;
   line-height: 44px;
@@ -784,6 +793,7 @@ footer a:hover {
   font-size: 20px;
   font-weight: 500;
 }
+
 .section-menu {
   width: 90vw;
   margin: 0 auto;
